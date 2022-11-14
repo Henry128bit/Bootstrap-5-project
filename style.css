@@ -3,3 +3,18 @@
 .page {
     font-family: 'Montserrat';
 }
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    color: #878383;
+}
