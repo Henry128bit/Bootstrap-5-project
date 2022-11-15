@@ -2,7 +2,11 @@
 
 .page {
     font-family: 'Montserrat';
+
+    background-color: #f1fbff;
 }
+
+/* Navbar */
 
 .navbar-brand {
     font-size: 25px;
@@ -17,4 +21,21 @@
     text-transform: uppercase;
 
     color: #878383;
+}
+
+/* Carousel */
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-title {
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.9;
 }
