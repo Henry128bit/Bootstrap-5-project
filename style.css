@@ -14,13 +14,23 @@
     margin: 0 auto;
 }
 
-/* Navbar */
+/* General rules */
+
+.text {
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+    opacity: .75;
+}
+
+/* Header */
 
 .navbar-brand {
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
 }
 
 .nav-link {
@@ -31,7 +41,7 @@
     color: #878383;
 }
 
-/* Carousel */
+/* Intro section */
 
 .carousel-inner::after {
     content: "";
@@ -45,6 +55,7 @@
 }
 
 .carousel-caption {
+    top: 50%;
     z-index: 2;
 }
 
@@ -54,9 +65,71 @@
     text-transform: uppercase;
 }
 
-.intro-text {
-    font-size: 18px;
-    line-height: 1.9;
+/* About section */
+
+.about {
+    padding: 100px 0 50px;
+}
+
+.about-title {
+    width: 650px;
+
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* Services section */
+
+.services {
+    padding: 50px 0 50px;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.bi {
+    font-size: 60px;
+}
+
+.services-card-title {
+    font-size: 30px;
+}
+
+.services-card-text {
+    font-size: 20px;
+    color: #b0b3a3;
 }
 
 /*Responsive*/
+
+@media screen and (max-width: 576px) {
+    .intro-title {
+        font-size: 35px;
+
+        word-break: break-word;
+
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 50px 0 25px;
+    }
+
+    .about-title {
+        width: 100%;
+
+        margin-bottom: 25px;
+    }
+
+    .about-text {
+        margin-bottom: 25px;
+    }
+
+    .services {
+        padding: 25px 0;
+    }
+}
