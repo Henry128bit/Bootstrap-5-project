@@ -48,7 +48,7 @@
 }
 
 .nav-link {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
 
@@ -158,6 +158,15 @@
 .contact-textarea-text {
     font-size: 18px;
     font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    height: 80px;
+}
+
+.footer-text {
+    font-size: 18px;
 }
 
 /*Responsive*/
