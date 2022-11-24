@@ -16,6 +16,11 @@
 
 /* General rules */
 
+.title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
 .text {
     font-size: 25px;
     line-height: 1.4;
@@ -23,6 +28,15 @@
 
 .btn:hover, .btn:focus, .btn:active {
     opacity: .75;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    font-size: 20px;
+    color: #b0b3a3;
 }
 
 /* Header */
@@ -34,7 +48,7 @@
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
 
@@ -90,31 +104,81 @@
     padding: 25px 0;
 }
 
-.services-title {
-    font-size: 35px;
-    font-weight: 700;
+.services-wrapper {
+    padding: 0 16px;
 }
 
 .bi {
     font-size: 60px;
 }
 
-.services-card-title {
-    font-size: 30px;
+/* Portfolio section */
+
+.portfolio {
+    padding: 25px 0;
 }
 
-.services-card-text {
-    font-size: 20px;
-    color: #b0b3a3;
+.portfolio-wrapper {
+    padding: 0 16px;
+}
+
+.portfolio-card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
+}
+
+/* Team section */
+
+.team {
+    padding: 25px 0;
+}
+
+.team-card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
+}
+
+/* Contact section */
+
+.contact {
+    padding: 25px 0;
+}
+
+.contact-label {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.contact-form-text {
+    font-size: 15px;
+}
+
+.contact-check-text {
+    font-size: 13px;
+}
+
+.contact-textarea-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    height: 80px;
+}
+
+.footer-text {
+    font-size: 18px;
 }
 
 /*Responsive*/
 
 @media screen and (min-width: 576px) {
-
     .text-desktop {
         font-size: 30px;
         line-height: 1.6;
+    }
+
+    .desktop-card-text {
+        font-size: 23px;
     }
 
     .carousel-caption {
@@ -161,6 +225,30 @@
     }
 
     .services {
-        padding: 50px 0 50px;
+        padding: 50px 0;
+    }
+
+    .portfolio {
+        padding: 50px 0;
+    }
+
+    .team {
+        padding: 50px 0;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contact-label {
+        font-size: 25px;
+    }
+    
+    .contact-form-text {
+        font-size: 20px;
+    }
+
+    .contact-check-text {
+        font-size: 18px;
     }
 }
