@@ -15,6 +15,7 @@
 }
 
 /* General rules */
+
 .title {
     font-size: 35px;
     font-weight: 700;
@@ -47,7 +48,7 @@
 }
 
 .nav-link {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
 
@@ -112,6 +113,7 @@
 }
 
 /* Portfolio section */
+
 .portfolio {
     padding: 25px 0;
 }
@@ -125,6 +127,7 @@
 }
 
 /* Team section */
+
 .team {
     padding: 25px 0;
 }
@@ -132,6 +135,31 @@
 .team-card {
     box-shadow: 15px 15px 40px rgba(0, 0, 0, .15);
 }
+
+/* Contact section */
+
+.contact {
+    padding: 25px 0;
+}
+
+.contact-label {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.contact-form-text {
+    font-size: 15px;
+}
+
+.contact-check-text {
+    font-size: 13px;
+}
+
+.contact-textarea-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 /*Responsive*/
 
 @media screen and (min-width: 576px) {
@@ -197,5 +225,21 @@
 
     .team {
         padding: 50px 0;
+    }
+
+    .contact {
+        padding: 50px 0;
+    }
+
+    .contact-label {
+        font-size: 25px;
+    }
+    
+    .contact-form-text {
+        font-size: 20px;
+    }
+
+    .contact-check-text {
+        font-size: 18px;
     }
 }
